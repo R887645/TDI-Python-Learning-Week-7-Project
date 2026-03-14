@@ -4,7 +4,7 @@ In this **Week 7 project**, I focused on transforming my cleaned supply chain da
 
 Feature engineering helped me generate new information that directly answered business questions.
 
-![Project Introduction](https://github.com/R887645/TDI-Python-Learning-Week-7-Project-/blob/main/Intro.png?raw=true)
+![Project Introduction](https://github.com/R887645/TDI-Python-Learning-Week-7-Project/blob/main/Intro.png?raw=true)
 
 ---
 
@@ -28,7 +28,7 @@ I identified missing values across columns, counted them, and applied strategies
 - Filled categorical columns with their **most frequent value (mode)**
 - Dropped rows where **too many values were missing**
 
-![Handling Missing Values](https://github.com/R887645/TDI-Python-Learning-Week-7-Project-/blob/main/Task1.png?raw=true)
+![Handling Missing Values](https://github.com/R887645/TDI-Python-Learning-Week-7-Project/blob/main/Task%201A.png?raw=true)
 
 ---
 
@@ -43,6 +43,8 @@ This included converting:
 
 into proper **datetime objects**, and ensuring **cost** and **quantity** were numeric values.
 
+![Handling Missing Values](https://github.com/R887645/TDI-Python-Learning-Week-7-Project/blob/main/Task%202B.png?raw=true)
+
 ---
 
 ## 3. Creating New Columns
@@ -53,8 +55,6 @@ I engineered new features to answer business questions:
 - **Order profit (`order_profit`)** using cost, quantity, and margin
 - **Efficiency score (`efficiency_score`)** comparing lead time vs actual delivery days
 - **Delay status** *(On Time or Delayed)* based on expected vs actual delivery
-
-![Feature Engineering](https://github.com/R887645/TDI-Python-Learning-Week-7-Project-/blob/main/Task2.png?raw=true)
 
 ---
 
@@ -67,6 +67,7 @@ I standardized **supplier names** and **product categories** by:
 - Replacing inconsistent text formatting
 
 This ensured consistency across the dataset.
+![Feature Engineering](https://github.com/R887645/TDI-Python-Learning-Week-7-Project/blob/main/Task%204A.png?raw=true)
 
 ---
 
@@ -95,5 +96,4 @@ Overall, **Week 7 helped me move from data preparation into true transformation*
 
 # View the Full Project
 
-🔗 **View my Week 7 full project here:**  
-https://github.com/R887645/TDI-Python-Learning-Week-7-Project-
+🔗 **[View my Week 7 full project here](https://github.com/R887645/TDI-Python-Learning-Week-7-Project/blob/main/Week7_PersonalDataOrganizer.ipynb)**
